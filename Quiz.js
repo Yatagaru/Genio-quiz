@@ -41,7 +41,7 @@ class Quiz {
     if(allContestants!= undefined){
       textSize(20)
       fill("Blue")
-      TextTrack("Jogador que acertou está em verde",130,230)
+      text("Jogador que acertou está em verde",130,230)
       var correctAns = "2";
       var y = 300 
           for(var plr in allContestants){
